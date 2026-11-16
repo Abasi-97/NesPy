@@ -2,10 +2,10 @@ This is NesPY, an experimental emulator built in python and can run only mappers
 No third party optimization libraries such as Numpy, PyPy, Cython, Numba, etc were used. This project has its
 own bulit in compiler that translates guest code into byte code.
 Here are the following games it can run:
-![The Legend of Zelda](img/zelda.png)
+![The Legend of Zelda](img/Zelda.png)
 ![Super Mario Bros.](img/Super Mario Bros.png)
 ![Tetris](img/Tetris.png)
-![Final Fantasy](Final Fantasy.png)
+![Final Fantasy](img/Final Fantasy.png)
 
 A JIT (Just-in-Time) compiler is an optimization engine whereby guest codes are translated into client code only once and cached in a memory block
 for future execution. The technique used here was that two caches were created....one for the client code
